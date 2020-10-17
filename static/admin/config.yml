@@ -17,15 +17,15 @@ collections:
             name: session_list
             widget: list
             fields:
-              - label: Header
-                name: header
+              - label: Heading
+                name: heading
                 widget: text
               - label: Exercises
                 name: exercise_list
                 widget: list
                 fields:
-                  - label: Header
-                    name: header
+                  - label: Heading
+                    name: heading
                     widget: text
                   - label: URL
                     name: url
