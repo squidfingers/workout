@@ -18,6 +18,7 @@ body {
   background-color: #fff;
 }
 .exercise > * {
+  padding-right: 1rem;
   width: 25%;
 }
 .alternate {
