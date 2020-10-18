@@ -11,15 +11,14 @@ body {
 }
 .exercise {
   display: flex;
-  justify-content: space-between;
   align-items: baseline;
   padding: 0.5rem 2rem;
   margin-bottom: 1rem;
   background-color: #fff;
 }
 .exercise > * {
+  flex-basis: 25%;
   padding-right: 1rem;
-  width: 25%;
 }
 .alternate {
   opacity: 0.5;
