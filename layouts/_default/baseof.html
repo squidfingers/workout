@@ -6,33 +6,7 @@
         {{ if .IsHome }}
             <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         {{ end }}
-        <style type="text/css">
-          html {
-            box-sizing: border-box;
-            font-size: 16px;
-          }
-          body {
-              margin: 2rem;
-              background-color: #eee;
-              font-family: Helvetica;
-              font-size: 1rem;
-              line-height: 1.2;
-          }
-          .exercise {
-              display: flex;
-              justify-content: space-between;
-              align-items: baseline;
-              padding: 0.5rem 2rem;
-              margin-bottom: 1rem;
-              background-color: #fff;
-          }
-          .exercise > * {
-            width: 25%;
-          }
-          .alternate {
-            opacity: 0.5;
-          }
-        </style>
+        <link href="/css/main.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         {{ block "main" . }}
