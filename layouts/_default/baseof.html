@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>{{ .Site.Title }}</title>
-        {{ if .IsHome }}
-            <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-        {{ end }}
-        <link href="/css/main.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
-        {{ block "main" . }}
-        {{ end }}
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ .Site.Title }}</title>
+    {{ if .IsHome }}
+      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    {{ end }}
+    <link href="/css/main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    {{ block "main" . }}
+    {{ end }}
+  </body>
 </html>

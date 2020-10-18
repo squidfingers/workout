@@ -4,15 +4,15 @@
 
 {{ range .Params.session_list }}
   <div class="routine">
-      <h1>{{ .heading }}</h1>
-      {{ range .exercise_list }}
-        <div class="exercise{{ if .alternate }} alternate{{ end }}">
-          <p><a href="{{ .url }}" target="_blank">{{ .heading }}</a></p>
-          <p>{{ .target }}</p>
-          <p>{{ .reps }}</p>
-          <p>{{ .weight }}</p>
-        </div>
-      {{ end }}
+    <h1>{{ .heading }}</h1>
+    {{ range .exercise_list }}
+      <div class="exercise{{ if .alternate }} alternate{{ end }}">
+        <p><a href="{{ .url }}" target="_blank">{{ .heading }}</a></p>
+        <p>{{ .target }}</p>
+        <p>{{ .reps }}</p>
+        <p>{{ .weight }}</p>
+      </div>
+    {{ end }}
   </div>
 {{ end }}
 
