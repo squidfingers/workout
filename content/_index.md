@@ -133,7 +133,7 @@ session_list:
       weight: 40 lbs
 
     - heading: Stiff Legged Deadlift
-      url: https://exrx.net/WeightExercises/Hamstrings/DBStrBackStrLegDeadlift
+      url: https://exrx.net/WeightExercises/Hamstrings/BBStraightLegDeadlift
       target: Hamstrings
       reps: 3 sets of 16,12,8
       weight: 15 lbs + 5 lbs bar (x 2)
