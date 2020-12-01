@@ -21,7 +21,7 @@ session_list:
       url: https://exrx.net/WeightExercises/PectoralSternal/DBFly
       target: Pectoralis Major, Sternal
       reps: 3 sets of 16,12,8
-      weight: 10 lbs + 5 lbs bar (x 2)
+      weight: 15 lbs + 5 lbs bar (x 2)
 
     - heading: Weighted Neck Flexion
       url: https://exrx.net/WeightExercises/Sternocleidomastoid/WtNeckFlx
@@ -158,7 +158,7 @@ session_list:
       url: https://exrx.net/WeightExercises/SerratusAnterior/DBInclineShoulderRaise
       target: Serratus Anterior
       reps: 3 sets of 16,12,8
-      weight: 20 lbs
+      weight: 15 lbs + 5 lbs bar (x 2)
 
     - heading: Dumbbell Side Bend
       url: https://exrx.net/WeightExercises/Obliques/DBSideBend
