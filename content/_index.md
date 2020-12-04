@@ -102,13 +102,13 @@ session_list:
       url: https://exrx.net/WeightExercises/DeltoidLateral/DBLateralRaise
       target: Deltoid, Lateral
       reps: 3 sets of 16,12,8
-      weight: 5 lbs + 5 lbs bar (x 2)
+      weight: 5 lbs bar (x 2)
 
     - heading: Seated Rear Lateral Raise
       url: https://exrx.net/WeightExercises/DeltoidPosterior/DBSeatedRearLateralRaise
       target: Deltoid, Posterior
       reps: 3 sets of 16,12,8
-      weight: 5 lbs + 5 lbs bar (x 2)
+      weight: 5 lbs bar (x 2)
 
   - heading: Legs
     exercise_list:
