@@ -151,7 +151,7 @@ session_list:
       reps: 3 sets of 16,12,8
       weight: 20 lbs + 5 lbs bar
 
-  - heading: Back, Abs
+  - heading: Back
     exercise_list:
 
     - heading: Dumbbell Incline Shoulder Raise
@@ -178,16 +178,19 @@ session_list:
       reps: 3 sets of 16,12,8
       weight: 20 lbs + 5 lbs bar
 
-    - heading: Incline Leg-Hip Raise
-      url: https://exrx.net/WeightExercises/RectusAbdominis/BWInclineLegHipRaise
-      target: Rectus Abdominis
-      reps: 3 sets of 16,12,8
+    - heading: Abs
+      exercise_list:
 
-    - heading: Crunch
-      url: https://exrx.net/WeightExercises/RectusAbdominis/BWCrunch
-      target: Rectus Abdominis
-      reps: 3 sets of 16,12,8
-      alternate: true
+      - heading: Incline Leg-Hip Raise
+        url: https://exrx.net/WeightExercises/RectusAbdominis/BWInclineLegHipRaise
+        target: Rectus Abdominis
+        reps: 3 sets of 16,12,8
+
+      - heading: Crunch
+        url: https://exrx.net/WeightExercises/RectusAbdominis/BWCrunch
+        target: Rectus Abdominis
+        reps: 3 sets of 16,12,8
+        alternate: true
 
 ---
 
