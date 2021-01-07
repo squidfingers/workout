@@ -27,19 +27,25 @@ collections:
                   - label: Heading
                     name: heading
                     widget: string
+                    required: true
                   - label: URL
                     name: url
                     widget: string
+                    required: false
                   - label: Target
                     name: target
                     widget: string
+                    required: false
                   - label: Reps
                     name: reps
                     widget: string
+                    required: false
                   - label: Weight
                     name: weight
                     widget: string
+                    required: false
                   - label: Alternate
                     name: alternate
                     widget: boolean
                     default: false
+                    required: false
